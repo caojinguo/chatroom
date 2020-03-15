@@ -1,0 +1,26 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "it's a chatroom",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "websocket",
+    "socket.io",
+    "chatroom"
+  ],
+  "author": "caojinguo",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "socketio": "^1.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}

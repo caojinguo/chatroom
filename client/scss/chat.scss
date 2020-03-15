@@ -1,0 +1,43 @@
+.chat-box{
+    width: 100%;
+    max-width: 750px;
+    margin:0 auto;
+    .chat-content{
+        height:580px;
+        border:1px solid #eee;
+        padding:10px;
+        overflow: auto;
+        .chat-item{
+            font-size: 16px;
+            margin-bottom: 20px;
+            span{
+                color: #3B4184;
+            }
+        }
+    }
+    .chat-edit{
+        display: flex;
+        position: fixed;
+        bottom:10px;
+        width:100%;
+        max-width: 750px;
+        margin-top: 30px;
+        line-height:30px;
+        textarea{
+            resize: none;
+            height:30px;
+            line-height: 30px;
+            border: 1px solid #eee;
+            padding:0 10px;
+            flex: 1;
+
+        }
+        #sendBtn{
+            width:100px;
+            display:inline-block;
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+    
+}
