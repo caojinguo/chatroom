@@ -4,7 +4,7 @@
   "description": "it's a chatroom",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -16,11 +16,9 @@
   ],
   "author": "caojinguo",
   "license": "ISC",
-  "devDependencies": {
-    "express": "^4.17.1",
-    "socketio": "^1.0.0"
-  },
   "dependencies": {
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "socket.io": "^2.3.0",
+    "express": "^4.17.1"
   }
 }
